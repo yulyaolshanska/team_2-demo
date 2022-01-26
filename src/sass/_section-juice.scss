@@ -1,12 +1,19 @@
-section {
-  background-color: yellow;
+.cake {
+  background-color: rgb(150, 168, 228);
 }
-.juice {
+.cake__list {
+  display: flex;
+}
+.cake {
   padding: 30px 0;
+  margin: -15px;
 }
 
-.juice__item {
-  width: 350px;
-  height: 400px;
+.cake__item {
+  padding: 20px;
+  margin: 15px;
+  width: 150px;
+  height: 200px;
   border: tomato solid 2px;
+  border-radius: 20%;
 }
